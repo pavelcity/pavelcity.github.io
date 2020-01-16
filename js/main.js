@@ -2,7 +2,7 @@
 	
 	'use strict';
 	
-	alert('hello');
+
 
 	// iPad and iPod detection	
 	var isiPad = function(){
