@@ -314,3 +314,41 @@ body {
 		height: 44px;
 	}
 }
+
+
+
+@media (max-width: 480px) {
+
+	body {
+		padding: 40px 0;
+	}
+
+	.top_menu {
+
+		.left_right {
+			// display: flex;
+			flex-direction: column;
+
+			.uk-navbar-left {
+				justify-content: center;
+				margin-bottom: 40px;
+			}
+
+			.uk-navbar-right {	
+				justify-content: center;
+				margin: 0;
+			}
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

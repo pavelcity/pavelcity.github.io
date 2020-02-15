@@ -276,4 +276,28 @@ body {
     height: 44px;
   }
 }
+
+@media (max-width: 480px) {
+  body {
+    padding: 40px 0;
+  }
+  .top_menu .left_right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .top_menu .left_right .uk-navbar-left {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 40px;
+  }
+  .top_menu .left_right .uk-navbar-right {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
