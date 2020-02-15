@@ -206,3 +206,30 @@ body {
 		}
 	}
 }
+
+
+
+
+@media (max-width: 686px) {
+  .jobs .jobs_wrap .uk-card h5 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 44px;
+	}
+}
+
+
+
+
+@media (max-width: 576px) {
+  .jobs .jobs_wrap .uk-card h5 {
+		font-size: 14px;
+		word-wrap: break-word;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 44px;
+	}
+}
