@@ -208,7 +208,11 @@ body {
 }
 
 
-
+@media (max-width: 768px) {
+	.pic_utp {
+		display: none;
+	}
+}
 
 @media (max-width: 686px) {
   .jobs .jobs_wrap .uk-card h5 {
