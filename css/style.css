@@ -20,11 +20,20 @@ body {
   list-style: none;
 }
 
+.top_menu .logo img {
+  margin-right: 15px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 1px 11px 1px #d4d4d4;
+          box-shadow: 1px 1px 11px 1px #d4d4d4;
+}
+
 .top_menu .logo a {
   font-weight: 600;
   font-size: 14px;
   color: #3C64B1;
   text-transform: none;
+  text-decoration: none;
 }
 
 .top_menu .call_me a {
@@ -137,8 +146,8 @@ body {
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-transition: ease .4s;
-  transition: ease .4s;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
   text-decoration: none;
 }
 
@@ -156,13 +165,17 @@ body {
 }
 
 .jobs .jobs_wrap .uk-card h4 {
-  font-size: 14px;
+  font-size: 12px;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   color: #3C64B1;
   -webkit-transition: ease .4s;
   transition: ease .4s;
+}
+
+.jobs .jobs_wrap .uk-card h4 img {
+  margin-right: 10px;
 }
 
 .jobs .jobs_wrap .uk-card h5 {
