@@ -99,7 +99,7 @@ body {
 			margin: 0;
 			color:#3C64B1;
 			margin-left: 20px;
-
+ 
 			span {
 				font-size: 20px;
 			}
@@ -256,6 +256,37 @@ body {
 		}
 	}
 }
+
+
+
+
+.github {
+	margin-top: 30px;
+
+
+	.wrap_github {
+		border-top: 1px solid #F4F5F4;
+		background-color: #fff;
+		padding: 50px 20px 50px 20px;
+		border-radius: 6px;
+
+		h3 {
+			font-size: 25px;
+			font-weight: 700;
+			color:#373F41;
+		}
+
+		a {
+			display: block;
+			font-size: 14px;
+
+			svg {
+				width: 20px;
+			}
+		}
+	}
+}
+
 
 
 
