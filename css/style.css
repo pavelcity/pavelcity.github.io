@@ -10,24 +10,19 @@ body {
 .top_menu {
   margin-bottom: 50px;
 }
-
 .top_menu ul {
   margin: 0;
   padding: 0;
 }
-
 .top_menu ul li {
   list-style: none;
 }
-
 .top_menu .logo img {
   margin-right: 15px;
   border: 5px solid #fff;
   border-radius: 50%;
-  -webkit-box-shadow: 1px 1px 11px 1px #d4d4d4;
-          box-shadow: 1px 1px 11px 1px #d4d4d4;
+  box-shadow: 1px 1px 11px 1px rgb(212, 212, 212);
 }
-
 .top_menu .logo a {
   font-weight: 600;
   font-size: 14px;
@@ -35,7 +30,6 @@ body {
   text-transform: none;
   text-decoration: none;
 }
-
 .top_menu .call_me a {
   padding: 10px 30px;
   text-decoration: none;
@@ -48,22 +42,22 @@ body {
   color: #FFFFFF;
   border-radius: 6px;
   border: 2px solid #3C64B1;
-  -webkit-transition: ease .4s;
-  transition: ease .4s;
+  transition: ease 0.4s;
 }
-
 .top_menu .call_me a:hover {
   background-color: #fff;
   color: #3C64B1;
 }
 
+.utp {
+  display: none;
+}
 .utp .utp_wrap {
   background-color: #fff;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   padding: 20px 20px;
 }
-
 .utp .utp_wrap h1 {
   text-transform: uppercase;
   font-weight: 800;
@@ -72,7 +66,6 @@ body {
   color: #3C64B1;
   margin-top: 80px;
 }
-
 .utp .utp_wrap h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -81,23 +74,19 @@ body {
   color: #3C64B1;
   margin-left: 20px;
 }
-
 .utp .utp_wrap h2 span {
   font-size: 20px;
 }
-
 .utp .utp_wrap h2 img.laravel {
   width: 180px;
   height: 3px;
   border: 1px solid red;
 }
-
 .utp .utp_wrap ul.utp_list {
   margin: 0;
   padding: 0;
   margin-top: 40px;
 }
-
 .utp .utp_wrap ul.utp_list li {
   list-style: none;
   margin-bottom: 5px;
@@ -109,59 +98,48 @@ body {
 }
 
 .jobs {
+  display: none;
   margin-top: 30px;
 }
-
 .jobs .jobs_wrap {
   border-radius: 6px;
   border-top: 1px solid #F4F5F4;
   background-color: #fff;
   padding: 50px 20px 50px 20px;
 }
-
 .jobs .jobs_wrap h3 {
   font-size: 25px;
   font-weight: 700;
   color: #373F41;
 }
-
 .jobs .jobs_wrap .uk-card {
   display: block;
   background-color: #fff;
   border: 1px solid #DBDCDB;
   padding: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-transition: ease .2s;
-  transition: ease .2s;
+  box-sizing: border-box;
+  transition: ease 0.2s;
   text-decoration: none;
 }
-
 .jobs .jobs_wrap .uk-card:hover {
-  -webkit-box-shadow: 0px 0px 7px 2px rgba(201, 201, 201, 0.4);
-          box-shadow: 0px 0px 7px 2px rgba(201, 201, 201, 0.4);
+  box-shadow: 0px 0px 7px 2px rgba(201, 201, 201, 0.4);
   background-color: #F4F5F4;
   border: 1px solid #fff;
 }
-
 .jobs .jobs_wrap .uk-card:hover h4 {
   margin-left: 5px;
 }
-
 .jobs .jobs_wrap .uk-card h4 {
   font-size: 12px;
   margin: 0;
   margin-bottom: 10px;
   font-weight: 500;
   color: #3C64B1;
-  -webkit-transition: ease .4s;
-  transition: ease .4s;
+  transition: ease 0.4s;
 }
-
 .jobs .jobs_wrap .uk-card h4 img {
   margin-right: 10px;
 }
-
 .jobs .jobs_wrap .uk-card h5 {
   text-align: center;
   font-weight: 700;
@@ -175,20 +153,17 @@ body {
 .feature {
   margin-top: 30px;
 }
-
 .feature .wrap_feature {
   border-top: 1px solid #F4F5F4;
   background-color: #fff;
   padding: 50px 20px 50px 20px;
   border-radius: 6px;
 }
-
 .feature .wrap_feature h3 {
   font-size: 25px;
   font-weight: 700;
   color: #373F41;
 }
-
 .feature .wrap_feature article ul {
   margin-left: 30px;
 }
@@ -196,25 +171,21 @@ body {
 .github {
   margin-top: 30px;
 }
-
 .github .wrap_github {
   border-top: 1px solid #F4F5F4;
   background-color: #fff;
   padding: 50px 20px 50px 20px;
   border-radius: 6px;
 }
-
 .github .wrap_github h3 {
   font-size: 25px;
   font-weight: 700;
   color: #373F41;
 }
-
 .github .wrap_github a {
   display: block;
   font-size: 14px;
 }
-
 .github .wrap_github a svg {
   width: 20px;
 }
@@ -222,40 +193,33 @@ body {
 .me {
   margin-top: 30px;
 }
-
 .me .wrap_me {
   border-top: 1px solid #F4F5F4;
   background-color: #fff;
   padding: 50px 20px 50px 20px;
   border-radius: 6px;
 }
-
 .me .wrap_me h3 {
   font-size: 25px;
   font-weight: 700;
   color: #373F41;
 }
-
 .me .wrap_me h4 {
   font-weight: 300;
   text-transform: uppercase;
 }
-
 .me .wrap_me p {
   font-weight: 500;
   font-size: 20px;
   color: #3C64B1;
 }
-
 .me .wrap_me ul {
   padding: 0;
   margin-top: 40px;
 }
-
 .me .wrap_me ul .call_me {
   list-style: none;
 }
-
 .me .wrap_me ul .call_me a {
   padding: 10px 25px;
   text-decoration: none;
@@ -268,10 +232,8 @@ body {
   color: #3C64B1;
   border-radius: 6px;
   border: 2px solid #3C64B1;
-  -webkit-transition: ease .4s;
-  transition: ease .4s;
+  transition: ease 0.4s;
 }
-
 .me .wrap_me ul .call_me a:hover {
   background-color: #3C64B1;
   color: #fff;
@@ -282,63 +244,40 @@ body {
     display: none;
   }
 }
-
 @media (max-width: 686px) {
   .jobs .jobs_wrap .uk-card h5 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     height: 44px;
   }
 }
-
 @media (max-width: 576px) {
   .jobs .jobs_wrap .uk-card h5 {
     font-size: 14px;
     word-wrap: break-word;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     height: 44px;
   }
 }
-
 @media (max-width: 480px) {
   body {
     padding: 40px 0;
   }
   .top_menu .left_right {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .top_menu .left_right .uk-navbar-left {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin-bottom: 40px;
   }
   .top_menu .left_right .uk-navbar-right {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin: 0;
   }
 }
-
 @media (max-width: 425px) {
   .jobs .jobs_wrap .uk-card h4 {
     font-size: 8px;
@@ -347,7 +286,6 @@ body {
     font-size: 13px;
   }
 }
-
 @media (max-width: 320px) {
   .jobs .jobs_wrap .uk-card h4 {
     font-size: 8px;
@@ -360,5 +298,4 @@ body {
   .jobs .jobs_wrap .uk-card h5 {
     font-size: 9px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
